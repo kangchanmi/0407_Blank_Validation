@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        legend {
+            color: #9af;
+        }
+        * { font-size: 24px; }
+        fieldset {
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .blankChkMsg {
+            color: #f00;
+            font-size: 15px;
+        }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <fieldset id="blankChkArea">
+        <legend>공백검사</legend>
+        <input type="text" id="blankChk" size="5" maxlength="3">
+        <button type="button">확인</button>
+        <span class="blankChkMsg"></span>
+    </fieldset>
+
+
+
+
+</body>
+</html>
